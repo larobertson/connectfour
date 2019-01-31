@@ -1,0 +1,21 @@
+.Board {
+  display: flex;
+  flex-direction: row;
+  height: 660px;
+  width: 770px;
+}  
+
+.Col {
+  background-color: midnightblue;
+  height: 640px;
+  width: 110px;
+}
+
+.Square {
+  background-color: lavender;
+  border-color: black;
+  margin: 5px;
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+}
